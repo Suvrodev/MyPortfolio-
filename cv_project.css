@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #EEE;
+}
+.Container{
+    width: 1000px;
+    /* background-color: teal; */
+    background-color: #E4F9F5;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* header start */
+header{
+
+}
+.profile_image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.Header_Contact{
+    float: right;
+    padding: 20px 120px;
+}
+.Header_Contact a{
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+}
+.Header_Contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+.Div_Clear{
+    clear: both;
+}
+hr{
+    width: 100%;
+    border: 3px solid black;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* header end */
+
+/* Personal Section Start */
+.Personal_Section{
+
+}
+.Content{
+
+}
+.Left_Div{
+    width: 30%;
+    float: left;
+}
+.Right_Div{
+    width: 70%;
+    float: right;
+}
+.Common_hr{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin: 10px auto;
+}
+.Right_Div_2{
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .BSC{
+    margin-left: 100px;
+} */
+.Bottom_Container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.Bottom_Container a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+}
+.Bottom_Container p{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 20px;
+}
